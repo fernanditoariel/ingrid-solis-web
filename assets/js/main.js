@@ -20,12 +20,15 @@
           io.unobserve(entry.target);
         }
       });
-    }, { rootMargin: "0px 0px -10% 0px", threshold: 0.12 });
+    }, { rootMargin: "0px 0px -12% 0px", threshold: 0.15 });
     reveals.forEach(function (el) { io.observe(el); });
-    /* failsafe: never leave content hidden */
+    /* failsafe: if IntersectionObserver never fires, reveal anything
+       still hidden after a while so content is never stuck invisible */
     setTimeout(function () {
-      reveals.forEach(function (el) { el.classList.add("in"); });
-    }, 2600);
+      reveals.forEach(function (el) {
+        if (!el.classList.contains("in")) el.classList.add("in");
+      });
+    }, 9000);
   }
 
   /* ---- nav stuck state ---- */
