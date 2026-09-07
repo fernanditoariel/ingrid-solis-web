@@ -23,7 +23,7 @@ python3 -m http.server 5182
 
 - Botón flotante de WhatsApp + todos los CTA apuntan a:
   `https://api.whatsapp.com/send?phone=+541141927838&text=Hola%20Ingrid.%20Obtuve%20tu%20whatsapp%20de%20tu%20website.%20Mi%20nombre%20es:`
-- Mail: `solisingrid80@hotmail.com`
+- Mail: `solisingridbio@gmail.com`
 - Instagram: `https://www.instagram.com/ingridsoliscoach/`
 
 ## Pendientes (reemplazar antes de dar por final)
