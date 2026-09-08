@@ -8,6 +8,18 @@
 
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* ---- ambient video: only when motion is welcome ---- */
+  var creedBg = document.querySelector(".creed__bg");
+  if (creedBg) {
+    if (reduce) {
+      creedBg.removeAttribute("autoplay");
+      creedBg.remove();
+    } else {
+      var play = creedBg.play();
+      if (play && typeof play.catch === "function") { play.catch(function () {}); }
+    }
+  }
+
   /* ---- reveal on scroll ---- */
   var reveals = document.querySelectorAll(".reveal");
   if (reduce || !("IntersectionObserver" in window)) {
