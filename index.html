@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Caveat:wght@600;700&family=Figtree:ital,wght@0,300..700;1,400..600&display=swap" rel="stylesheet" />
 
-<link rel="stylesheet" href="assets/css/styles.css?v=14" />
+<link rel="stylesheet" href="assets/css/styles.css?v=16" />
 <script>document.documentElement.className += " js";</script>
 </head>
 <body>
@@ -197,17 +197,26 @@
     <h2 class="reveal">De tu primer mensaje a tu primera sesión</h2>
     <ol class="steps__list">
       <li class="reveal">
-        <span class="steps__num">01</span>
+        <div class="step__top">
+          <span class="step__badge"><i class="ph ph-paper-plane-tilt" aria-hidden="true"></i></span>
+          <span class="step__num">01</span>
+        </div>
         <h3>Escribís y coordinamos</h3>
         <p>Me contás en dos líneas qué te trae y buscamos día y horario. Elegís online o presencial en Vicente López.</p>
       </li>
       <li class="reveal">
-        <span class="steps__num">02</span>
+        <div class="step__top">
+          <span class="step__badge"><i class="ph ph-armchair" aria-hidden="true"></i></span>
+          <span class="step__num">02</span>
+        </div>
         <h3>Nos encontramos 1 a 1</h3>
         <p>Un encuentro tranquilo, de alrededor de una hora, donde vamos a lo que traés sin apuro.</p>
       </li>
       <li class="reveal">
-        <span class="steps__num">03</span>
+        <div class="step__top">
+          <span class="step__badge"><i class="ph ph-lightbulb" aria-hidden="true"></i></span>
+          <span class="step__num">03</span>
+        </div>
         <h3>Te llevás algo para trabajar</h3>
         <p>Cerramos con una lectura de lo que apareció y una consigna concreta para sostener hasta la próxima.</p>
       </li>
@@ -341,18 +350,29 @@
 
 <!-- ============ FOOTER ============ -->
 <footer class="foot">
-  <div class="wrap foot__inner">
-    <div>
-      <a class="brand brand--foot" href="#top" aria-label="Ingrid Solís, inicio">
-        <span class="brand__word">Ingrid Solís</span>
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <p class="foot__sign">Ingrid Solís</p>
+      <p class="foot__role">Coach en Bioneuroemoción</p>
+      <p class="foot__line">Sesiones individuales, online y presenciales en Vicente López.</p>
+      <a class="foot__cta" href="https://api.whatsapp.com/send?phone=+541141927838&text=Hola%20Ingrid.%20Obtuve%20tu%20whatsapp%20de%20tu%20website.%20Mi%20nombre%20es:" target="_blank" rel="noopener">
+        <i class="ph-fill ph-whatsapp-logo" aria-hidden="true"></i> Reservar sesión
       </a>
-      <p class="foot__line">Coach en Bioneuroemoción. Sesiones individuales, online y presenciales.</p>
     </div>
-    <div class="foot__links">
-      <a href="https://www.instagram.com/ingridsoliscoach/" target="_blank" rel="noopener"><i class="ph ph-instagram-logo" aria-hidden="true"></i> @ingridsoliscoach</a>
-      <a href="https://www.facebook.com/profile.php?id=100058046359077" target="_blank" rel="noopener"><i class="ph ph-facebook-logo" aria-hidden="true"></i> Ingrid Solís en Facebook</a>
+    <nav class="foot__col" aria-label="Secciones del sitio">
+      <h3>Navegación</h3>
+      <a href="#metodo">El método</a>
+      <a href="#acompaño">Acompañamiento</a>
+      <a href="#sesion">Cómo funciona</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+    <div class="foot__col">
+      <h3>Contacto</h3>
       <a href="https://api.whatsapp.com/send?phone=+541141927838&text=Hola%20Ingrid.%20Obtuve%20tu%20whatsapp%20de%20tu%20website.%20Mi%20nombre%20es:" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i> +54 11 4192-7838</a>
       <a href="mailto:solisingridbio@gmail.com"><i class="ph ph-envelope-simple" aria-hidden="true"></i> solisingridbio@gmail.com</a>
+      <a href="https://www.instagram.com/ingridsoliscoach/" target="_blank" rel="noopener"><i class="ph ph-instagram-logo" aria-hidden="true"></i> @ingridsoliscoach</a>
+      <a href="https://www.facebook.com/profile.php?id=100058046359077" target="_blank" rel="noopener"><i class="ph ph-facebook-logo" aria-hidden="true"></i> Ingrid Solís en Facebook</a>
       <span><i class="ph ph-map-pin" aria-hidden="true"></i> Vicente López, Buenos Aires</span>
     </div>
   </div>
@@ -366,7 +386,7 @@
   <div class="wrap foot__base">
     <span>&copy; 2026 Ingrid Solís</span>
     <span class="foot__credit">Esta web fue construida por <a href="https://agenciawebhispana.com/" target="_blank" rel="noopener">Agencia Web Hispana</a></span>
-    <a href="#top">Volver arriba</a>
+    <a href="#top">Volver arriba <i class="ph ph-arrow-up" aria-hidden="true"></i></a>
   </div>
 </footer>
 
