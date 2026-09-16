@@ -1,6 +1,6 @@
-# Ingrid Solís — Bioneuroemoción
+# Ingrid Solis — Bioneuroemoción
 
-Landing estática (HTML + CSS + JS, sin build) para Ingrid Solís, coach en
+Landing estática (HTML + CSS + JS, sin build) para Ingrid Solis, coach en
 Bioneuroemoción. Sesiones individuales, online y presenciales en Vicente López.
 
 ## Ver en local

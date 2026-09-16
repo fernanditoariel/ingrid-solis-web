@@ -1,5 +1,5 @@
 /* =========================================================
-   Ingrid Solís — Bioneuroemoción · landing
+   Ingrid Solis — Bioneuroemoción · landing
    Design read: service landing for people seeking emotional
    support. Calm, warm, human, sober, modern. Native HTML/CSS/JS.
    Palette: soft warm neutrals — light brown (café con leche) as
@@ -625,8 +625,8 @@ p { text-wrap: pretty; }
 .foot__base a { display: inline-flex; align-items: center; gap: 0.3rem; transition: color 0.2s var(--ease); }
 .foot__base a:hover { color: var(--brown); }
 .foot__base .ph { font-size: 0.95em; }
-.foot__credit a { color: var(--ink-soft); border-bottom: 1px solid var(--line-2); padding-bottom: 1px; }
-.foot__credit a:hover { color: var(--brown); }
+.foot__credit a { color: var(--brown); font-weight: 700; border-bottom: 1px solid var(--line-2); padding-bottom: 1px; }
+.foot__credit a:hover { color: var(--brown-deep); }
 
 /* ---------- floating whatsapp ---------- */
 .wa-float {
@@ -688,14 +688,14 @@ html.js :is(.support__grid, .faq__list) > .reveal:nth-child(6) { --rv-d: 0.45s; 
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: saturate(0.5) brightness(1.06) sepia(0.28);
+  filter: saturate(1.05) brightness(1.03) contrast(1.02);
 }
 .creed::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(239, 226, 212, 0.9), rgba(239, 226, 212, 0.83));
+  background: linear-gradient(180deg, rgba(239, 226, 212, 0.8), rgba(239, 226, 212, 0.74));
 }
 .creed__inner { position: relative; max-width: 760px; margin-inline: auto; text-align: center; }
 .creed__mark {
@@ -716,6 +716,7 @@ html.js :is(.support__grid, .faq__list) > .reveal:nth-child(6) { --rv-d: 0.45s; 
   margin: 0;
   text-wrap: balance;
 }
+.creed__quote--long { font-size: clamp(1.3rem, 1.02rem + 1.35vw, 1.95rem); line-height: 1.32; }
 .creed__source {
   margin: 1.5rem 0 0;
   font-size: 0.8rem;

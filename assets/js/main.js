@@ -1,4 +1,4 @@
-/* Ingrid Solís — landing interactions
+/* Ingrid Solis — landing interactions
    - scroll reveal via IntersectionObserver (no scroll listeners)
    - sticky nav shadow state
    - all motion gated behind prefers-reduced-motion
