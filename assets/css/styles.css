@@ -100,14 +100,8 @@ p { text-wrap: pretty; }
 }
 
 /* ---------- brand lockup ---------- */
-.brand { display: inline-flex; align-items: baseline; gap: 0.55rem; line-height: 1; }
-.brand__word {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.3rem;
-  letter-spacing: -0.02em;
-  color: var(--ink);
-}
+.brand { display: inline-flex; align-items: center; gap: 0.7rem; line-height: 1; }
+.brand__logo { height: 40px; width: auto; flex: 0 0 auto; }
 .brand__tag {
   font-family: var(--font-ui);
   font-size: 0.66rem;
@@ -115,10 +109,9 @@ p { text-wrap: pretty; }
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--brown);
-  padding-left: 0.6rem;
+  padding-left: 0.7rem;
   border-left: 1px solid var(--line-2);
 }
-.brand--foot .brand__word { font-size: 1.5rem; }
 
 /* ---------- buttons ---------- */
 .btn {
