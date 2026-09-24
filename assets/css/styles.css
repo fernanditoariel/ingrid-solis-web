@@ -688,7 +688,7 @@ html.js :is(.support__grid, .faq__list) > .reveal:nth-child(6) { --rv-d: 0.45s; 
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(239, 226, 212, 0.8), rgba(239, 226, 212, 0.74));
+  background: linear-gradient(180deg, rgba(239, 226, 212, 0.64), rgba(239, 226, 212, 0.59));
 }
 .creed__inner { position: relative; max-width: 760px; margin-inline: auto; text-align: center; }
 .creed__mark {
